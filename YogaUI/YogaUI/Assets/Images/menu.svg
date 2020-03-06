@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="25" viewBox="0 0 42 25">
+  <g id="MENU" transform="translate(-30 -120)">
+    <rect id="Line" width="38" height="3" rx="1.5" transform="translate(30 120)" fill="#fff"/>
+    <path id="Line-2" data-name="Line" d="M31.5,131h5a1.5,1.5,0,0,1,0,3h-5a1.5,1.5,0,0,1,0-3Z" fill="#fff"/>
+    <path id="Line-3" data-name="Line" d="M42.5,131h19a1.5,1.5,0,0,1,0,3h-19a1.5,1.5,0,0,1,0-3Z" fill="#fff"/>
+    <path id="Line-4" data-name="Line" d="M31.5,142h39a1.5,1.5,0,1,1,0,3h-39a1.5,1.5,0,1,1,0-3Z" fill="#fff"/>
+  </g>
+</svg>

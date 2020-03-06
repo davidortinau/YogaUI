@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Fonts\Arcon-Regular.otf" />
+    <None Remove="Assets\Fonts\Arcon-Rounded-Regular.otf" />
+    <None Remove="Assets\Fonts\MontserratAlternates-Bold.ttf" />
+    <None Remove="Assets\Fonts\MontserratAlternates-Regular.ttf" />
+    <None Remove="Assets\Images\ashtanga.svg" />
+    <None Remove="Assets\Images\bikram.svg" />
+    <None Remove="Assets\Images\iyenger.svg" />
+    <None Remove="Assets\Images\jivamukti.svg" />
+    <None Remove="Assets\Images\menu.svg" />
+    <None Remove="Assets\Images\vinyasa.svg" />
+    <None Remove="Assets\Images\yin.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Fonts\Arcon-Regular.otf" />
+    <EmbeddedResource Include="Assets\Fonts\Arcon-Rounded-Regular.otf" />
+    <EmbeddedResource Include="Assets\Fonts\MontserratAlternates-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\MontserratAlternates-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveSharp" Version="1.1.46" />
+    <PackageReference Include="Resizetizer.NT" Version="0.1.0-preview7" />
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.387-nightly" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <SharedImage Include="Assets\Images\ashtanga.svg" />
+    <SharedImage Include="Assets\Images\bikram.svg" />
+    <SharedImage Include="Assets\Images\iyenger.svg" />
+    <SharedImage Include="Assets\Images\jivamukti.svg" />
+    <SharedImage Include="Assets\Images\menu.svg" />
+    <SharedImage Include="Assets\Images\vinyasa.svg" BaseSize="210,170" />
+    <SharedImage Include="Assets\Images\yin.svg" />
+  </ItemGroup>
+</Project>
