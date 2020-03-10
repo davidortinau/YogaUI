@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.379-pre1" />
+    <PackageReference Include="Xamarin.Forms.Platform.WPF" Version="4.7.0.407-nightly" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YogaUI\YogaUI\YogaUI.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -15,6 +15,37 @@ namespace YogaUI
 
         public MainPage() => Build();
 
+        //void Build()
+        //{
+        //    Content = new StackLayout()
+        //    {
+        //        Padding = new Thickness(15),
+        //        Children = {
+        //            new Label {Text = "Choose a color:" }.Bold(),
+        //            new RadioButton
+        //            {
+        //                GroupName = "Colors",
+        //                Text = "Red",
+        //                TextColor = Color.Red
+        //            },
+        //            new RadioButton
+        //            {
+        //                GroupName = "Colors",
+        //                Text = "Green",
+        //                TextColor = Color.Green
+        //            },
+        //            new RadioButton
+        //            {
+        //                GroupName = "Colors",
+        //                Text = "Blue",
+        //                TextColor = Color.Blue
+        //            },
+        //        }
+
+        //    };
+        //}
+
+
         void Build()
         {
             Resources = new ResourceDictionary();

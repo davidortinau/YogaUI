@@ -146,7 +146,7 @@
     <PackageReference Include="Resizetizer.NT">
       <Version>0.1.0-preview7</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.7.0.387-nightly" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.379-pre1" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.1.9" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.1" />
   </ItemGroup>
